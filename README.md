@@ -1,22 +1,7 @@
-## `koa2-ts-quickstart`
-> Typescript fork of [koa2-kickstarter](https://github.com/umayr/koa2-kickstarter). Wondering why Typescript ? Read [this](http://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript) post on StackOverflow
+## `serverless-ts-koa2`
 
 ### Setup
-
-```bash
-
-  # clone the repository
-  λ git clone https://github.com/aitchkhan/koa2-ts-quickstart
-  # change the current directory
-  λ cd koa2-ts-quickstart
-  # install all dependencies
-  λ npm install
-  #Create a file development.secret in src/conf folder and paste:
-  MYSQL_ROOT_PASSWORD=whatevermypassword
-
-  # run the project
-  λ docker-compose up --build
-```
+- TBD
 
 ### Structure
 
@@ -45,14 +30,12 @@
 - [Boom](https://github.com/hapijs/boom) HTTP Errors.
 - [Convict](https://github.com/mozilla/node-convict) Configuration management.
 - [Typescript](https://github.com/Microsoft/TypeScript) Typed superset of Javascript. Supports ES6/ES7 features.
-- [TSLint](https://github.com/palantir/tslint) Linting purposes.
 - [Nodemon](https://github.com/remy/nodemon) Restart the server automatically (hot-reloading).
-- [Docker](https://www.docker.com/) Well, :whale: :dark_sunglasses:  
-
+- Add Eslint, prettier (TBD)
 And many more small packages.
 
 ### Scripts
-
+- TBD
 - `npm start` - simply starts the server
 - `npm run watch` - reload changes
 - `npm test` - execute all unit tests
@@ -61,8 +44,3 @@ And many more small packages.
 - `npm run watch` - starts the server with hot-reloading
 
 **Suggestion:** To turn on debug messages, set `DEBUG` environment variable to `kickstarter:*`
-
-### Docker
-
-`Dockerfile` for the project has been packaged.
-`docker-compose` for running both mysql volume container and node.js container as well.
