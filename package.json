@@ -15,7 +15,7 @@
   "dependencies": {
     "apidoc": "^0.20.1",
     "boom": "^7.3.0",
-    "convict": "^5.2.0",
+    "convict": "^6.2.3",
     "debug": "^4.1.1",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.3.0",
